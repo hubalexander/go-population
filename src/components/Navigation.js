@@ -15,7 +15,7 @@ const Navigation = () => {
       </div>
       <p className="navigationBar">
         <NavLink to="/">
-          <button className="citypopButton">CITYPOP</button>
+          <button className="citypopButton">POP CITY</button>
         </NavLink>
       </p>
     </div>
