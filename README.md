@@ -6,4 +6,5 @@
 ### `2. Run the api with "npm run start"`
 
 
-### `Å/Ä/Ö replaced by A/A/O`
+### `English letters (latin 0041–007A) utilized.`
+### `Visit "http://localhost:3000/" for main page.`
