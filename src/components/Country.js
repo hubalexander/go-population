@@ -49,7 +49,7 @@ function Country() {
             <input
               className="submitField"
               type="text"
-              pattern="[A-Za-z\s]{1,}"
+              pattern="[A-Za-z\s]{3,}"
               placeholder="Enter a country"
               value={value}
               required
