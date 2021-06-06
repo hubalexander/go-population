@@ -1,0 +1,99 @@
+/*Basic styling of the country view*/
+.countrySubmit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 12px;
+  padding-top: 40px;
+}
+
+.submitField {
+  align-items: center;
+  font-size: 20px;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 7px;
+  outline: none;
+}
+
+.cityResult {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-right: 0px;
+  font-size: 25px;
+}
+
+.notValidInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.returnButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  padding-top: 160px;
+  padding-right: 650px;
+}
+
+.loadingBar {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonStyle {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 12px;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.countryButtonStyle {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 12px;
+  font-size: 20px;
+  margin: 0 auto;
+  width: 144px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+p {
+  opacity: 1;
+  transition: opacity 400ms;
+}
+p.loaderConfig {
+  opacity: 0;
+}
+
+.countryList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-right: 0px;
+  font-size: 25px;
+}
+
+.listReturnButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.errorTitle {
+  padding-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+}

@@ -1,0 +1,32 @@
+/*Basic styling of the home view*/
+.searchTools {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  padding-top: 50px;
+  padding-left: 12px;
+}
+
+.cityButton {
+  padding: 1px 32px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 12px;
+}
+
+.countryButton {
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 12px;
+}
+
+.navigationBar {
+  background-color: rgb(238, 238, 238);
+}
+
+

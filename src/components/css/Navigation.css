@@ -1,0 +1,25 @@
+/*Basic styling of the navigation link to the home view*/
+.navigationBar {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 250px;
+  padding-bottom: 20px;
+}
+
+.citypopButton {
+  border: none;
+  background-color: rgb(238, 238, 238);
+  border: none;
+  outline: none;
+  color: black;
+  display: flex;
+}
+
+.homeButton {
+  padding-top: 30px;
+  padding-left: 40px;
+  background-color: rgb(238, 238, 238);
+  padding-bottom: 0px;
+
+}

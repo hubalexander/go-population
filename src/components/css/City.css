@@ -1,0 +1,87 @@
+/*Basic styling of the city view*/
+.citySubmit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 12px;
+  padding-top: 40px;
+}
+
+.submitTitle {
+  align-items: center;
+  justify-content: center;
+}
+
+.submitField {
+  align-items: center;
+  font-size: 20px;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 7px;
+  outline: none;
+}
+
+.notValidInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.invalidButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0px;
+}
+.p {
+  opacity: 1;
+  transition: opacity 100ms;
+}
+
+p.loaderConfig {
+  opacity: 0;
+}
+
+.loadingBar {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cityData {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-right: 0px;
+  font-size: 25px;
+}
+.hideMessage {
+  visibility: hidden;
+}
+
+.returnButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 637px;
+  padding-bottom: 50px;
+  font-size: 25px;
+}
+
+.buttonStyle {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.errorTitle {
+  padding-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+}

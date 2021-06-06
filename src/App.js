@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route } from "react-router-dom";
+import Home from "./components/Home";
+import City from "./components/City";
+import Navigation from "./components/Navigation";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Country from "./components/Country";
 
+//Containing the router of the application. Routes with paths are defined here.
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  
+    return (
+      <BrowserRouter>
+        <div>
+          <Navigation />
+          <Route path="/" component={Home} exact />
+          <Route path="/city" component={City} />
+          <Route path="/country" component={Country} />
+        </div>
+      </BrowserRouter>
+    );
+  }
+
 
 export default App;
